@@ -1,0 +1,28 @@
+
+{
+    
+    "TopSite": "ssoadaaa.com",
+    "Devices": 25,
+    "Speed": "10Mbps",
+    "Users": [
+        
+    {
+        "id": 1,
+        "name": "Khaed Jomka",
+        "ip": "192.41.2.1"
+    },
+    {
+        "id": 2,
+        "name": "Doe John",
+        "ip": "192.5.14.2"
+    },
+    {
+        "id": 3,
+        "name": "Smith John",
+        "ip": "192.1.1.1"
+    }
+
+]
+
+    
+}

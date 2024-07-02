@@ -1,0 +1,132 @@
+[
+  {
+    "country": "United States of America",
+    "total_count": 442,
+    "count_by_status": {
+      "healthy": 442,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Armenia",
+    "total_count": 3,
+    "count_by_status": {
+      "healthy": 3,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "United Kingdom",
+    "total_count": 6,
+    "count_by_status": {
+      "healthy": 6,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Egypt",
+    "total_count": 3,
+    "count_by_status": {
+      "healthy": 3,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "South Korea",
+    "total_count": 4,
+    "count_by_status": {
+      "healthy": 4,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Indonesia",
+    "total_count": 5,
+    "count_by_status": {
+      "healthy": 5,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Netherlands",
+    "total_count": 71,
+    "count_by_status": {
+      "healthy": 71,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Hong Kong",
+    "total_count": 4,
+    "count_by_status": {
+      "healthy": 4,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Singapore",
+    "total_count": 7,
+    "count_by_status": {
+      "healthy": 7,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Ireland",
+    "total_count": 5,
+    "count_by_status": {
+      "healthy": 5,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Jordan",
+    "total_count": 2,
+    "count_by_status": {
+      "healthy": 2,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Czechia",
+    "total_count": 3,
+    "count_by_status": {
+      "healthy": 3,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  },
+  {
+    "country": "Austria",
+    "total_count": 4,
+    "count_by_status": {
+      "healthy": 4,
+      "warning": 0,
+      "critical": 0
+    },
+    "sites": null
+  }
+]

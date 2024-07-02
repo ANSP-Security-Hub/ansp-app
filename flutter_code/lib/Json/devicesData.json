@@ -1,0 +1,42 @@
+[
+    {
+      "id": "805ebf201c523f69",
+      "name": "Device 1",
+      "ip": "192.168.1.10",
+      "health": "healthy",
+      "status": "active",
+      "last_connected": 1714683767
+    },
+    {
+      "id": "ba753efa2015157b",
+      "name": "Device 2",
+      "ip": "192.168.1.31",
+      "health": "warning",
+      "status": "active",
+      "last_connected": 1714683767
+    },
+    {
+      "id": "734d6b3fb4778119",
+      "name": "Device 3",
+      "ip": "192.168.1.12",
+      "health": "healthy",
+      "status": "active",
+      "last_connected": 1714680167
+    },
+    {
+      "id": "4088220d560a503e",
+      "name": "Device 4",
+      "ip": "192.168.1.13",
+      "health": "critical",
+      "status": "active",
+      "last_connected": 1714683767
+    },
+    {
+      "id": "ba753efa2015157b",
+      "name": "American Fridge Freezer",
+      "ip": "192.168.1.31",
+      "health": "warning",
+      "status": "active",
+      "last_connected": 1714683767
+    }
+  ]
