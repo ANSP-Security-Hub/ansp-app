@@ -1,0 +1,108 @@
+{
+    "id": "b29e08d7b4bf3908",
+    "name": "Agentlesss- 1",
+    "ip": "10.10.10.2",
+    "health": "healthy",
+    "status": "active",
+    "uptime": 0,
+    "last_connected": 0,
+    "os": "Unknown",
+    "used_bandwidth": 0,
+    "top_sites": null,
+    "alert_count": {
+      "low": 3,
+      "medium": 0,
+      "high": 0
+    },
+    "alerts": {
+      "low": [
+        {
+          "src_ip": "10.10.10.2",
+          "dest_ip": "10.10.9.2",
+          "log_source": "ntopng",
+          "log_description": "TCP No Data Exchanged",
+          "rule_description": "NtopNG Notice Alert.",
+          "rule_level": 2,
+          "rule_id": "103101",
+          "rule_groups": [
+            "Network monitoring rules"
+          ],
+          "timestamp": 1716026950,
+          "full_log": "May 18 13:09:10 192.168.1.2 ntopng[72454]:  [2024-05-18T10:09:09Z]  [Interface: em1] [Severity: Notice] [Flow] [TCP No Data Exchanged] [10.10.10.2:22 -> 10.10.9.2:44528]  TCP flow ended with no data exchanged past 3WH"
+        },
+        {
+          "src_ip": "10.10.10.2",
+          "dest_ip": "185.125.188.54",
+          "log_source": "ntopng",
+          "log_description": "Low Goodput Ratio",
+          "rule_description": "NtopNG Notice Alert.",
+          "rule_level": 2,
+          "rule_id": "103101",
+          "rule_groups": [
+            "Network monitoring rules"
+          ],
+          "timestamp": 1716027973,
+          "full_log": "May 18 13:26:13 192.168.1.2 ntopng[72454]:  [2024-05-18T10:26:11Z]  [Interface: em1] [Severity: Notice] [Flow] [TLS (probably) Not Carrying HTTPS] [10.10.10.2:55868 -> 185.125.188.54:443]  TLS (probably) Not Carrying HTTPS"
+        },
+        {
+          "src_ip": "10.10.10.2",
+          "dest_ip": "10.10.9.2",
+          "log_source": "json",
+          "log_description": "Possible Nmap SYN Scan Detected",
+          "rule_description": "NtopNG Notice Alert.",
+          "rule_level": 2,
+          "rule_id": "103101",
+          "rule_groups": [
+            "Network monitoring rules"
+          ],
+          "timestamp": 1715975831,
+          "full_log": "May 17 22:57:11 192.168.1.2 ntopng[72454]:  [2024-05-17T19:57:11Z]  [Interface: em1] [Severity: Notice] [Flow] [TCP No Data Exchanged] [10.10.10.2:22 -> 10.10.9.2:44528]  TCP flow ended with no data exchanged past 3WH"
+        },
+        {
+          "src_ip": "10.10.10.1",
+          "dest_ip": "10.10.10.2",
+          "log_source": "ntopng",
+          "log_description": "Low Goodput Ratio",
+          "rule_description": "NtopNG Notice Alert.",
+          "rule_level": 2,
+          "rule_id": "103101",
+          "rule_groups": [
+            "Network monitoring rules"
+          ],
+          "timestamp": 1716026545,
+          "full_log": "May 18 13:02:25 192.168.1.2 ntopng[72454]:  [2024-05-18T10:02:25Z]  [Interface: em1] [Severity: Notice] [Flow] [Low Goodput Ratio] [10.10.10.1:4025 -> 10.10.10.2:514]  Low goodput ratio [28.01%]"
+        },
+        {
+          "src_ip": "10.10.10.1",
+          "dest_ip": "10.10.10.2",
+          "log_source": "ntopng",
+          "log_description": "Low Goodput Ratio",
+          "rule_description": "NtopNG Notice Alert.",
+          "rule_level": 2,
+          "rule_id": "103101",
+          "rule_groups": [
+            "Network monitoring rules"
+          ],
+          "timestamp": 1715975731,
+          "full_log": "May 17 22:55:31 192.168.1.2 ntopng[72454]:  [2024-05-17T19:55:31Z]  [Interface: em1] [Severity: Notice] [Flow] [Low Goodput Ratio] [10.10.10.1:23784 -> 10.10.10.2:514]  Low goodput ratio [24.62%]"
+        },
+        {
+          "src_ip": "10.10.10.1",
+          "dest_ip": "10.10.10.2",
+          "log_source": "json",
+          "log_description": "Possible Nmap SYN Scan Detected",
+          "rule_description": "Suricata: Alert - Possible Nmap SYN Scan Detected",
+          "rule_level": 3,
+          "rule_id": "86601",
+          "rule_groups": [
+            "ids",
+            "suricata"
+          ],
+          "timestamp": 1716016018,
+          "full_log": "{\"in_iface\": \"em1^\", \"src_ip\": \"10.10.10.1\", \"src_port\": \"42250\", \"event_type\": \"alert\", \"alert\": {\"severity\": \"5\", \"signature_id\": \"10001234\", \"rev\": \"0\", \"gid\": \"1\", \"signature\": \"Possible Nmap SYN Scan Detected\", \"action\": \"allowed\", \"category\": \"Attempted Information Leak\"}, \"flow_id\": \"444547623515717.000000\", \"dest_ip\": \"10.10.10.2\", \"proto\": \"TCP\", \"dest_port\": \"514\", \"pkt_src\": \"wire/pcap\", \"flow\": {\"src_ip\": \"10.10.10.1\", \"src_port\": \"42250\", \"pkts_toserver\": \"1\", \"dest_ip\": \"10.10.10.2\", \"start\": \"2024-05-18T10:06:57.562256+0300\", \"bytes_toclient\": \"0\", \"bytes_toserver\": \"74\", \"pkts_toclient\": \"0\", \"dest_port\": \"514\"}, \"timestamp\": \"2024-05-18T10:06:57.562256+0300\", \"direction\": \"to_server\"}"
+        }
+      ],
+      "medium": [],
+      "high": []
+    }
+  }
